@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-txt-cl);
+
+  @include tablet() {
+    gap: 8px;
+  }
+  @include desktop() {
+    gap: 10px;
+  }
+}
+
+.logo__text {
+  display: none;
+
+  @include tablet() {
+    display: block;
+    font-size: 30px;
+  }
+}

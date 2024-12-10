@@ -1,0 +1,19 @@
+<form class="search" name="name" autocomplete="off">
+  <div class="search__wrap">
+    <input
+      class="search__input"
+      type="text"
+      name="search"
+      placeholder="Movie search"
+      pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+    />
+    <button class="search__btn">
+      <svg class="search__icon" width="12" height="12">
+        <use href="./images/sprite.svg#icon-search"></use>
+      </svg>
+    </button>
+  </div>
+  <p class="search__notification">
+    Search result not successful. Enter the correct movie name
+  </p>
+</form>
